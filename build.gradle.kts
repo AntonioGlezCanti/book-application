@@ -6,11 +6,11 @@ plugins {
 
 group = "com.book-application"
 version = "0.0.1-SNAPSHOT"
-description = "Book wishlist application"
+description = "book wishlist application"
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
+		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
 
