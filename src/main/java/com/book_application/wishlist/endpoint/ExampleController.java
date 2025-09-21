@@ -12,6 +12,6 @@ public class ExampleController {
   public String get() {
     String hola = "hola";
     return hola;
-
   }
+
 }
