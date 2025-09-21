@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.book_application.wishlist.WishlistApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-21T18:24:14.688Z" hostname="antonio-pc" time="0.63">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.book_application.wishlist.WishlistApplicationTests" time="0.63"/>
+  <system-out><![CDATA[20:24:13.250 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.book_application.wishlist.WishlistApplicationTests]: WishlistApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:24:13.336 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.book_application.wishlist.WishlistApplication for test class com.book_application.wishlist.WishlistApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-09-21T20:24:13.702+02:00  INFO 44473 --- [wishlist] [    Test worker] c.b.wishlist.WishlistApplicationTests    : Starting WishlistApplicationTests using Java 21.0.8 with PID 44473 (started by antonio in /home/antonio/Documents/projects/wishlist)
+2025-09-21T20:24:13.703+02:00  INFO 44473 --- [wishlist] [    Test worker] c.b.wishlist.WishlistApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-09-21T20:24:14.675+02:00  INFO 44473 --- [wishlist] [    Test worker] c.b.wishlist.WishlistApplicationTests    : Started WishlistApplicationTests in 1.227 seconds (process running for 2.084)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/home/antonio/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.7/fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
